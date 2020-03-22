@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 const { spawn } = require("child_process");
 
-spawn("ls", ["-hAl", "."], { stdio: "inherit" });
+spawn("echo", ["-n", "hello, world"], { stdio: "inherit" });
