@@ -7,6 +7,12 @@ node b.js
 
 &hellip;and see what you get.
 
+## Via Docker
+```shell
+make build
+make run
+```
+
 ---
 
 ## macOS
